@@ -1,0 +1,44 @@
+a {
+    color: red;
+  } 
+  
+.navbar {
+    background: #515A5A;
+    padding: 20px;
+    justify-content: flex-end !important;
+    display: flex;
+    padding: 5px 0 5px 5px;
+    font-size: 20px;
+}
+
+.active {
+    color: white;
+    font-size: 2rem;
+}
+
+h1 {
+    text-align: center;
+    padding: 5%;
+    color: #515A5A;
+}
+    
+input {
+
+    margin-left: 42%;
+    text-align: center;
+}
+
+button {
+    margin-left: 45%;
+    width: 120px ;
+    
+}
+
+.navlink {
+    margin: 10px;
+    
+}
+a:hover {
+    color: white;
+}
+
