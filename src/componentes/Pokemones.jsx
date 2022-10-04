@@ -13,7 +13,7 @@ export default function Pokemones() {
   const url = `https://pokeapi.co/api/v2/pokemon`;
 
   const getPokemon = async () => {
-    console.log('pasa por aquí');
+   
     const res = await fetch(url);
     const { results } = await res.json();
       setPokemones(results);
@@ -40,7 +40,7 @@ export default function Pokemones() {
       
           <div className="col-5 col-sm-3 col-lg-2 mx-auto">
             <select value={pokemonSelect} className="form-select text-center" onChange={({ target }) => setPokemonSelect(target.value)}>
-              <option value="" disabled>Pokemones</option>
+              <option value="" disabled>Selecciona</option>
               {pokemones.map(({ name }, i) =>(
               <option key={i} value={name}>{name}</option>
               ))}
